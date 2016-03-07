@@ -7,7 +7,7 @@ body {
 }
 
 .bgimage {
-  background-image: url('/rabbit.jpg');
+  background-image: url('rabbit.jpg');
   background-postion: center center;
   background-size: cover; 
   height: 400px; 
