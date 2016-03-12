@@ -30,7 +30,7 @@ li {
 }
 
 h2 {
-  margin-left: 15px;
+  /*margin-left: 15px;*/
   font-style: bold;
   text-decoration: underline;
 }
@@ -55,4 +55,5 @@ footer {
   padding-bottom: 30px;
   background-color: lightgray;
 }
+
 
