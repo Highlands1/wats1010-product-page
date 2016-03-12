@@ -8,9 +8,22 @@ body {
 
 .bgimage {
   background-image: url('rabbit.jpg');
-  background-postion: center center;
-  background-size: cover; 
-  height: 400px; 
+  background-postion: center center; 
+  background-size: cover;
+  min-height: 400px; 
+  min-width: 100%;
+}
+
+li {
+  font-size: 1.8em;
+}
+
+h2 {
+  margin-left: 15px;
+}
+
+.about {
+  background-color: lightgray;
 }
 
 
@@ -27,4 +40,6 @@ body {
 footer {
   padding-top: 15px;
   padding-bottom: 30px;
+  background-color: lightgray;
 }
+
