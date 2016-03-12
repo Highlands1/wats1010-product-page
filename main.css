@@ -12,3 +12,20 @@ body {
   background-size: cover; 
   height: 400px; 
 }
+
+
+.img-circle {
+  border-radius: 50%;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.about {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}

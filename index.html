@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+        <meta name="description" content="API Superstore"
         <title>API Superstore</title>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
@@ -22,6 +21,20 @@
           <h1>API Superstore</h1>
         </div> 
       </header>
+      
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">API Superstore</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+      
       <div class="container">
          <div class="row">
             <div class="col-lg-6">
@@ -39,31 +52,34 @@
           </div>
         </div>
       
-      <div class="container">
+      <div id="About" class=" about container">
          <div class="row">
-           <h2>ABOUT</h2>
+           <h2>About</h2>
            <div class="col-lg-12">
              <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. From ecommerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
            </div>
          </div>
       </div>
       
-      <div class="container">
+      <div id="Testimonial" class="container">
         <div class="row">
           <h2>Testimonial</h2>
           <div class="col-lg-3">
+            <img class="img-circle" src="bear.jpg" alt="bear" style="width: 300px; height: 200px;">
             <p><q>"This is the best website ever!</q> C.P. Yu, AmazingSite.com</p>
           </div>
           <div class="col-lg-3">
+            <img class="img-circle" src="cow.jpg" alt="cow" style="width: 300px; height: 200px;">
             <p><q>I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!</q> Amy Zon, Massive Anonymous Customer</p>
           </div>
           <div class="col-lg-3">
+            <img class="img-circle" src="trex.jpg" alt="trex" style="width: 300px; height: 200px;">
             <p><q>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!</q> Clara Cache,</p>
           </div>
         </div>
         
         <footer>
-          <div class="container">
+          <div id="Contact" class="container">
             <div class="row">
               <div class="col-lg-5">
                 <h2>CONTACT INFO</h2>
