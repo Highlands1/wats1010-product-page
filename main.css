@@ -8,10 +8,11 @@ body {
 
 .bgimage {
   background-image: url('rabbit.jpg');
-  background-postion: center center; 
+  /*background-postion: center center;*/ 
   background-size: cover;
   min-height: 400px; 
   min-width: 100%;
+
 }
 
 h1 { 
